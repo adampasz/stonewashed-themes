@@ -1,5 +1,9 @@
 " load my color scheme
-colorscheme pasz_colors
+if has("gui_running")
+  colorscheme pasz_colors_gui
+else
+  colorscheme pasz_colors_cterm
+endif
 
 " turn on syntax highlighting
 syntax on

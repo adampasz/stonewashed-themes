@@ -8,7 +8,7 @@ if version > 580
     syntax reset
   endif
 endif
-let g:colors_name = "pasz_colors"
+let g:colors_name = "pasz_colors_cterm"
 
 hi ColorColumn ctermbg=250
 hi Comment cterm=italic ctermfg=250
