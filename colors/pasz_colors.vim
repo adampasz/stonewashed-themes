@@ -1,5 +1,5 @@
 """ PASZ COLORS
-" A low-rent, light color-scheme for Vim
+" A low-rent color-scheme for Vim
 "
 set background=light
 if version > 580
@@ -10,13 +10,11 @@ if version > 580
 endif
 let g:colors_name = "pasz_colors"
 
-""" See http://vimdoc.sourceforge.net/htmldoc/syntax.html
-hi ColorColumn guibg=Gray67
-hi Comment gui=italic guifg=gray49
-hi Comment guifg=#2a3f82 gui=italic
+hi ColorColumn guibg=#ccc0b7
+hi Comment gui=italic guifg=#bcbcbc
 hi Conditional guifg=#c18216 gui=underline
 hi Constant guifg=#aa2100 gui=italic
-hi CursorColumn guibg=#ffffff
+hi CursorColumn guibg=GhostWhite
 hi CursorLine guibg=GhostWhite
 hi Define guifg=#702589 gui=underline
 hi Error guifg=#cc3333 gui=bold,undercurl
@@ -43,9 +41,16 @@ hi StorageClass guifg=#4e9a06 gui=italic
 hi String guifg=#114411 gui=italic
 hi Structure guifg=#4e9a06 guibg=#ceea96 gui=underline
 hi Title guifg=#ff0000 gui=bold
-hi Todo guifg=#2a3f82 guibg=#f0f0f0 gui=italic,bold
+hi Todo guibg=yellow guifg=#444444 gui=bold
 hi Type guifg=RoyalBlue4 gui=bold
 hi Typedef guifg=#4e9a06 gui=underline
 hi Underlined guifg=#000000 gui=italic
 hi VertSplit guifg=#4a5fa2 guibg=#4a5fa2
 hi Visual  guibg=#bbffbb gui=none
+
+
+
+""" REFERENCE
+" Color Chart http://i.stack.imgur.com/UQVe5.png
+" Vim Color Names http://vim.wikia.com/wiki/Xterm256_color_names_for_console_Vim
+" Syntax higlighting http://vimdoc.sourceforge.net/htmldoc/syntax.html#:highlight
