@@ -9,9 +9,8 @@ if version > 580
   endif
 endif
 let g:colors_name = "pasz_colors_gui"
-hi SpecialChar guifg=#ff0000
 hi ColorColumn guibg=#bcbcbd
-hi Comment  guifg=#6c6c6c
+hi Comment  guifg=#888888
 hi Conditional guifg=#875800 gui=underline
 hi Constant guifg=#875800 
 hi CursorColumn guibg=#fdfdfd
@@ -36,12 +35,13 @@ hi PreProc guifg=#875800
 hi Repeat guifg=#5f5fa7
 hi Search guibg=#ffafaf gui=bold
 hi Special guifg=#5f00ff
+hi SpecialChar guifg=#ff0000
 hi SpecialKey guibg=#e4e4e4 guifg=#a8a8a8
 hi Statement guifg=#875800
 hi StatusLine guifg=#ccc0b7 guibg=#af87d7
 hi StatusLineNC guibg=#ccc0b7 guifg=#ccc0b7
 hi StorageClass guifg=#5fd75f 
-hi String guifg=#00 
+hi String guifg=#005f00 
 hi Structure guifg=#5f8700 gui=underline
 hi Title guifg=#875800
 hi Todo guibg=#ffff00 guifg=#444444 gui=bold
