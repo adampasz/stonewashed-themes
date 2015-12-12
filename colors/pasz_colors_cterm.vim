@@ -12,27 +12,27 @@ let g:colors_name = "pasz_colors_cterm"
 
 hi ColorColumn ctermbg=250
 hi Comment ctermfg=242
-hi Conditional ctermfg=166 cterm=underline
+hi Conditional ctermfg=94 cterm=underline
 hi Constant ctermfg=88 
 hi CursorColumn ctermbg=255
 hi CursorLine ctermbg=255 cterm=none
-hi Define ctermfg=90 cterm=underline
+hi Define ctermfg=94 cterm=underline
 hi Error ctermfg=124 cterm=bold,undercurl
-hi Exception ctermfg=166 cterm=underline
-hi Float ctermfg=90
+hi Exception ctermfg=94 cterm=underline
+hi Float ctermfg=94
 hi Function ctermfg=62
 hi Identifier ctermfg=62
-hi Include ctermfg=90 cterm=underline
+hi Include ctermfg=94 cterm=underline
 hi LineNr ctermfg=240 ctermbg=144
-hi Macro ctermfg=90 cterm=underline
+hi Macro ctermfg=94 cterm=underline
 hi NonText ctermfg=244 ctermbg=254
 hi Normal ctermfg=0
 hi Number ctermfg=53  
-hi Pmenu ctermbg=166 
+hi Pmenu ctermbg=94 
 hi PmenuSel ctermfg=256 ctermbg=240 
-hi PreConduit ctermfg=90 cterm=underline
-hi PreProc ctermfg=90 cterm=underline
-hi Repeat ctermfg=60 cterm=underline
+hi PreConduit ctermfg=94
+hi PreProc ctermfg=94
+hi Repeat ctermfg=60
 hi Search ctermbg=217 cterm=bold
 hi Special ctermfg=57
 hi SpecialKey ctermbg=254 ctermfg=248

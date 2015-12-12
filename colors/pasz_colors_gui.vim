@@ -12,38 +12,38 @@ let g:colors_name = "pasz_colors_gui"
 hi SpecialChar guifg=#ff0000
 hi ColorColumn guibg=#bcbcbd
 hi Comment  guifg=#6c6c6c
-hi Conditional guifg=#d75f00 gui=underline
-hi Constant guifg=#870000 
+hi Conditional guifg=#875800 gui=underline
+hi Constant guifg=#875800 
 hi CursorColumn guibg=#efefef
 hi CursorLine guibg=#eeeeee gui=none
 hi Delimiter guifg=#000000
-hi Define guifg=#870000 gui=underline
+hi Define guifg=#875800 gui=underline
 hi Error guifg=#af0000 gui=bold,undercurl
-hi Exception guifg=#d75f00 gui=underline
-hi Float guifg=#870000
+hi Exception guifg=#875800 gui=underline
+hi Float guifg=#875800
 hi Function guifg=#5f5fd7
 hi Identifier guifg=#5f5fd7  gui=none
-hi Include guifg=#870000 gui=underline
+hi Include guifg=#875800 gui=underline
 hi LineNr guifg=#585858 guibg=#ccc0b7 
-hi Macro guifg=#870000 gui=underline
+hi Macro guifg=#875800 gui=underline
 hi NonText guifg=#B0B0B0 guibg=#e4e4e4
 hi Normal guifg=#000000 guibg=#e4e4e4
 hi Number guifg=#5f005f  
-hi Pmenu guibg=#d75f00 
+hi Pmenu guibg=#875800 
 hi PmenuSel guifg=#ffffff guibg=#585858 
-hi PreConduit guifg=#870000 gui=underline
-hi PreProc guifg=#870000 gui=underline
-hi Repeat guifg=#5f5fa7 gui=underline
+hi PreConduit guifg=#875800
+hi PreProc guifg=#875800
+hi Repeat guifg=#5f5fa7
 hi Search guibg=#ffafaf gui=bold
 hi Special guifg=#5f00ff
 hi SpecialKey guibg=#e4e4e4 guifg=#a8a8a8
-hi Statement guifg=#870000
+hi Statement guifg=#875800
 hi StatusLine guifg=#ccc0b7 guibg=#af87d7
 hi StatusLineNC guibg=#ccc0b7 guifg=#ccc0b7
 hi StorageClass guifg=#5fd75f 
 hi String guifg=#00 
 hi Structure guifg=#5f8700 gui=underline
-hi Title guifg=#870000
+hi Title guifg=#875800
 hi Todo guibg=#ffff00 guifg=#444444 gui=bold
 hi Type guifg=#00005f
 hi Typedef guifg=#5f8700 gui=underline
