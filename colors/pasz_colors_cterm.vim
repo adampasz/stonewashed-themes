@@ -22,20 +22,20 @@ hi Exception ctermfg=166 cterm=underline
 hi Float ctermfg=90
 hi Function ctermfg=74
 hi Identifier ctermfg=74 cterm=none
-hi Include ctermfg=91 cterm=underline
+hi Include ctermfg=90 cterm=underline
 hi LineNr ctermfg=240 ctermbg=144 cterm=italic
-hi Macro ctermfg=91 cterm=underline
+hi Macro ctermfg=90 cterm=underline
 hi NonText ctermfg=244 ctermbg=254
 hi Normal ctermfg=0
 hi Number ctermfg=53  
 hi Pmenu ctermbg=166 cterm=italic
 hi PmenuSel ctermfg=256 ctermbg=240 cterm=italic
-hi PreConduit ctermfg=91 cterm=underline
-hi PreProc ctermfg=91 cterm=underline
+hi PreConduit ctermfg=90 cterm=underline
+hi PreProc ctermfg=90 cterm=underline
 hi Repeat ctermfg=60 cterm=underline
 hi Search ctermbg=217 cterm=bold
 hi Special ctermfg=57
-hi SpecialKey ctermbg=253 ctermfg=248
+hi SpecialKey ctermbg=254 ctermfg=248
 hi Statement ctermfg=88
 hi StatusLine ctermfg=144 ctermbg=140
 hi StatusLineNC ctermbg=144 ctermfg=144
