@@ -30,7 +30,8 @@ hi NonText guifg=#B0B0B0 guibg=#e4e4e4
 hi Normal guifg=#000000 guibg=#e4e4e4
 hi Number guifg=#5f005f  
 hi Pmenu guibg=#5fafff guifg=#eeeeee gui=reverse 
-hi PmenuSel guibg=#5fafff guifg=#eeeeee 
+hi PmenuSel guifg=#5fafff guibg=#eeeeee gui=reverse
+
 hi PreConduit guifg=#875800
 hi PreProc guifg=#875800
 hi Repeat guifg=#5f5fa7
