@@ -1,9 +1,9 @@
 " load my color scheme
 if has("gui_running")
-  colorscheme pasz_colors_gui
+  colorscheme stonewashed-gui
 else
   set t_Co=256
-  colorscheme pasz_colors_cterm
+  colorscheme stonewashed-256
 endif
 
 " turn on syntax highlighting

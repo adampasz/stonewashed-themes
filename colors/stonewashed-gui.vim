@@ -8,7 +8,7 @@ if version > 580
     syntax reset
   endif
 endif
-let g:colors_name = "pasz_colors_gui"
+let g:colors_name = "stonewashed-gui"
 hi ColorColumn guibg=#bcbcbd
 hi Comment  guifg=#888888
 hi Conditional guifg=#875800 gui=underline
