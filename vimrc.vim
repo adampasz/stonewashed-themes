@@ -2,8 +2,8 @@
 if has("gui_running")
   colorscheme pasz_colors_gui
 else
-  colorscheme pasz_colors_cterm
   set t_Co=256
+  colorscheme pasz_colors_cterm
 endif
 
 " turn on syntax highlighting
