@@ -29,9 +29,8 @@ hi Macro guifg=#875800 gui=underline
 hi NonText guifg=#B0B0B0 guibg=#e4e4e4
 hi Normal guifg=#000000 guibg=#eeeeee
 hi Number guifg=#5f005f  
-hi Pmenu guibg=#5fafff guifg=#eeeeee gui=reverse 
-hi PmenuSel guifg=#5fafff guibg=#eeeeee gui=reverse
-
+hi Pmenu guibg=#5f99ff guifg=#fafafa gui=reverse 
+hi PmenuSel guifg=#5f99ff guibg=#fafafa gui=reverse
 hi PreConduit guifg=#875800
 hi PreProc guifg=#875800
 hi Repeat guifg=#5f5fa7
