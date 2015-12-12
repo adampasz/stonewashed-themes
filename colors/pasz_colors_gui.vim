@@ -9,19 +9,20 @@ if version > 580
   endif
 endif
 let g:colors_name = "pasz_colors_gui"
-
+hi SpecialChar guifg=#ff0000
 hi ColorColumn guibg=#bcbcbd
 hi Comment gui=italic guifg=#6c6c6c
 hi Conditional guifg=#d75f00 gui=underline
 hi Constant guifg=#870000 gui=italic
 hi CursorColumn guibg=#efefef
 hi CursorLine guibg=#eeeeee gui=none
+hi Delimiter guifg=#000000
 hi Define guifg=#870000 gui=underline
 hi Error guifg=#af0000 gui=bold,undercurl
 hi Exception guifg=#d75f00 gui=underline
 hi Float guifg=#870000
-hi Function guifg=#5fafd7
-hi Identifier guifg=#5fafd7 gui=none
+hi Function guifg=#5f5fd7
+hi Identifier guifg=#5f5fd7  gui=none
 hi Include guifg=#870000 gui=underline
 hi LineNr guifg=#585858 guibg=#ccc0b7 gui=italic
 hi Macro guifg=#870000 gui=underline
@@ -57,3 +58,4 @@ hi Wildmenu guibg=#87ffaf gui=underline
 " Vim Color Names http://vim.wikia.com/wiki/Xterm#ffffff_color_names_for_console_Vim
 " Syntax higlighting http://vimdoc.sourceforge.net/htmldoc/syntax.html#:highlight
 " Make Vim Pretty http://andrewradev.com/2011/08/06/making-vim-pretty-with-custom-colors/
+" List all syntax groups: :so $VIMRUNTIME/syntax/hitest.vim 

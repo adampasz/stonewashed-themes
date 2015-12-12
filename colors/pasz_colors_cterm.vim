@@ -20,8 +20,8 @@ hi Define ctermfg=90 cterm=underline
 hi Error ctermfg=124 cterm=bold,undercurl
 hi Exception ctermfg=166 cterm=underline
 hi Float ctermfg=90
-hi Function ctermfg=74
-hi Identifier ctermfg=74 cterm=none
+hi Function ctermfg=62
+hi Identifier ctermfg=62 cterm=none
 hi Include ctermfg=90 cterm=underline
 hi LineNr ctermfg=240 ctermbg=144 cterm=italic
 hi Macro ctermfg=90 cterm=underline

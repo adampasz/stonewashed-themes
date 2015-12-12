@@ -14,6 +14,9 @@ set hlsearch
 " Improve tab completion in command bar
 set wildmode=list:longest,full
 
+" override chars for vsplit and status line
+set fillchars=vert:\ ,stlnc:\ ,stl:─ 
+
 " line numbers
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
