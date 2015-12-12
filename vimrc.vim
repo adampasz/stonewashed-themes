@@ -26,7 +26,5 @@ set cursorcolumn
 set colorcolumn=120
 
 " make cursorlines brighter in insert mode
-autocmd InsertEnter * hi CursorLine ctermbg=231
-autocmd InsertEnter * hi CursorColumn ctermbg=231
-autocmd InsertLeave * hi CursorLine ctermbg=255
-autocmd InsertLeave * hi CursorColumn ctermbg=255
+autocmd InsertEnter * hi CursorLine ctermbg=230
+autocmd InsertLeave * hi CursorLine ctermbg=231

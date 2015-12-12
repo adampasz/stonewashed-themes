@@ -14,8 +14,8 @@ hi ColorColumn ctermbg=250
 hi Comment ctermfg=242
 hi Conditional ctermfg=94 cterm=underline
 hi Constant ctermfg=88 
-hi CursorColumn ctermbg=255
-hi CursorLine ctermbg=255 cterm=none
+hi CursorColumn ctermbg=231
+hi CursorLine ctermbg=231 cterm=none
 hi Define ctermfg=94 cterm=underline
 hi Error ctermfg=124 cterm=bold,undercurl
 hi Exception ctermfg=94 cterm=underline
@@ -26,7 +26,7 @@ hi Include ctermfg=94 cterm=underline
 hi LineNr ctermfg=240 ctermbg=144
 hi Macro ctermfg=94 cterm=underline
 hi NonText ctermfg=244 ctermbg=254
-hi Normal ctermfg=0 ctermbg=254
+hi Normal ctermfg=0 ctermbg=255
 hi Number ctermfg=53  
 hi Pmenu ctermbg=75 ctermfg=255 cterm=reverse 
 hi PmenuSel ctermfg=255 ctermbg=75
