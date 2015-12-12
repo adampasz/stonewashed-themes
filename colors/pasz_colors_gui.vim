@@ -11,7 +11,7 @@ endif
 let g:colors_name = "pasz_colors_gui"
 
 hi ColorColumn guibg=#bcbcbd
-hi Comment gui=italic guifg=#bcbcbd
+hi Comment gui=italic guifg=#6c6c6c
 hi Conditional guifg=#d75f00 gui=underline
 hi Constant guifg=#870000 gui=italic
 hi CursorColumn guibg=#efefef
@@ -22,25 +22,25 @@ hi Exception guifg=#d75f00 gui=underline
 hi Float guifg=#870000
 hi Function guifg=#5fafd7
 hi Identifier guifg=#5fafd7 gui=none
-hi Include guifg=#870087 gui=underline
+hi Include guifg=#870000 gui=underline
 hi LineNr guifg=#585858 guibg=#ccc0b7 gui=italic
-hi Macro guifg=#870087 gui=underline
+hi Macro guifg=#870000 gui=underline
 hi NonText guifg=#B0B0B0 guibg=#e4e4e4
 hi Normal guifg=#000000 guibg=#e4e4e4
 hi Number guifg=#5f005f  
 hi Pmenu guibg=#d75f00 gui=italic
 hi PmenuSel guifg=#ffffff guibg=#585858 gui=italic
-hi PreConduit guifg=#870087 gui=underline
-hi PreProc guifg=#870087 gui=underline
+hi PreConduit guifg=#870000 gui=underline
+hi PreProc guifg=#870000 gui=underline
 hi Repeat guifg=#5f5fa7 gui=underline
 hi Search guibg=#ffafaf gui=bold
 hi Special guifg=#5f00ff
 hi SpecialKey guibg=#e4e4e4 guifg=#a8a8a8
 hi Statement guifg=#870000
-hi StatusLine guifg=#ccc0b7 guibg=140
+hi StatusLine guifg=#ccc0b7 guibg=#af87d7
 hi StatusLineNC guibg=#ccc0b7 guifg=#ccc0b7
 hi StorageClass guifg=#5fd75f gui=italic
-hi String guifg=#00d75f gui=italic
+hi String guifg=#00 gui=italic
 hi Structure guifg=#5f8700 gui=underline
 hi Title guifg=#870000
 hi Todo guibg=#ffff00 guifg=#444444 gui=bold

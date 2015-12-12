@@ -11,7 +11,7 @@ endif
 let g:colors_name = "pasz_colors_cterm"
 
 hi ColorColumn ctermbg=250
-hi Comment cterm=italic ctermfg=250
+hi Comment cterm=italic ctermfg=242
 hi Conditional ctermfg=166 cterm=underline
 hi Constant ctermfg=88 cterm=italic
 hi CursorColumn ctermbg=255
@@ -40,7 +40,7 @@ hi Statement ctermfg=88
 hi StatusLine ctermfg=144 ctermbg=140
 hi StatusLineNC ctermbg=144 ctermfg=144
 hi StorageClass ctermfg=77 cterm=italic
-hi String ctermfg=41 cterm=italic
+hi String ctermfg=22 cterm=italic
 hi Structure ctermfg=64 cterm=underline
 hi Title ctermfg=88
 hi Todo ctermbg=226 ctermfg=238 cterm=bold
