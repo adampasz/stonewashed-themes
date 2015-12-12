@@ -14,8 +14,8 @@ hi ColorColumn guibg=#bcbcbd
 hi Comment  guifg=#6c6c6c
 hi Conditional guifg=#875800 gui=underline
 hi Constant guifg=#875800 
-hi CursorColumn guibg=#efefef
-hi CursorLine guibg=#eeeeee gui=none
+hi CursorColumn guibg=#fafafa
+hi CursorLine guibg=#ffffff gui=none
 hi Delimiter guifg=#000000
 hi Define guifg=#875800 gui=underline
 hi Error guifg=#af0000 gui=bold,undercurl
@@ -27,7 +27,7 @@ hi Include guifg=#875800 gui=underline
 hi LineNr guifg=#585858 guibg=#ccc0b7 
 hi Macro guifg=#875800 gui=underline
 hi NonText guifg=#B0B0B0 guibg=#e4e4e4
-hi Normal guifg=#000000 guibg=#e4e4e4
+hi Normal guifg=#000000 guibg=#eeeeee
 hi Number guifg=#5f005f  
 hi Pmenu guibg=#5fafff guifg=#eeeeee gui=reverse 
 hi PmenuSel guifg=#5fafff guibg=#eeeeee gui=reverse
