@@ -28,8 +28,8 @@ hi Macro ctermfg=94 cterm=underline
 hi NonText ctermfg=244 ctermbg=254
 hi Normal ctermfg=0 ctermbg=255
 hi Number ctermfg=53  
-hi Pmenu ctermbg=75 ctermfg=255 cterm=reverse 
-hi PmenuSel ctermfg=255 ctermbg=75
+hi Pmenu ctermbg=75 ctermfg=253 cterm=reverse 
+hi PmenuSel ctermfg=253 ctermbg=75
 hi PreConduit ctermfg=94
 hi PreProc ctermfg=94
 hi Repeat ctermfg=60
