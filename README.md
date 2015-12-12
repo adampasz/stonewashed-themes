@@ -1,6 +1,6 @@
 # pasz_colors.vim
 A simple, readable, vim theme, with suggestions for rolling your own.
-![vimrc.vim](gallery/vimrc.png?raw=true "vimrc.vim")
+![vimrc.vim](gallery/vimrc-gui.png?raw=true "vimrc.vim")
 
 
 ## Usage
