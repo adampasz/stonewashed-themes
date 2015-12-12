@@ -1,4 +1,4 @@
-# pasz_colors.vim
+# Vim Stonewashed
 A simple, readable, vim theme, with suggestions for rolling your own.
 ![vimrc.vim](gallery/vimrc-gui.png?raw=true "vimrc.vim")
 

@@ -1,4 +1,4 @@
-""" PASZ COLORS
+""" VIM STONEWASHED 
 " A low-rent color-scheme for Vim
 "
 set background=light
