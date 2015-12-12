@@ -8,7 +8,7 @@ if version > 580
     syntax reset
   endif
 endif
-let g:colors_name = "stonewashed-256"
+let g:colors_name = ""
 
 hi ColorColumn ctermbg=250
 hi Comment ctermfg=242
@@ -47,7 +47,7 @@ hi Todo ctermbg=226 ctermfg=238 cterm=bold
 hi Type ctermfg=17
 hi Typedef ctermfg=64 cterm=underline
 hi VertSplit ctermfg=195 ctermbg=195
-hi Visual  ctermbg=121  
+hi Visual  ctermbg=117 
 hi Wildmenu ctermbg=120 cterm=underline
 
 """ REFERENCE

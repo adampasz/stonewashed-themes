@@ -48,7 +48,7 @@ hi Todo guibg=#ffff00 guifg=#444444 gui=bold
 hi Type guifg=#00005f
 hi Typedef guifg=#5f8700 gui=underline
 hi VertSplit guifg=#dfffff guibg=#dfffff
-hi Visual  guibg=#87ffaf gui=bold  
+hi Visual  guibg=#87d7ff gui=bold  
 hi Wildmenu guibg=#87ffaf gui=underline
 
 """ REFERENCE
