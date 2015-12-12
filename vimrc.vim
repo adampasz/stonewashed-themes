@@ -14,9 +14,6 @@ set hlsearch
 " Improve tab completion in command bar
 set wildmode=list:longest,full
 
-" override chars for vsplit and status line
-set fillchars=vert:\ ,stlnc:\ ,stl:─ 
-
 " line numbers
 autocmd InsertEnter * :set number
 autocmd InsertLeave * :set relativenumber
@@ -32,8 +29,3 @@ autocmd InsertEnter * hi CursorLine ctermbg=231
 autocmd InsertEnter * hi CursorColumn ctermbg=231
 autocmd InsertLeave * hi CursorLine ctermbg=255
 autocmd InsertLeave * hi CursorColumn ctermbg=255
-
-" support italics in terminal
-autocmd BufRead,BufNewFile * highlight Comment cterm=italic
-autocmd BufRead,BufNewFile * highlight String cterm=italic
-autocmd BufRead,BufNewFile * highlight LineNr cterm=italic
