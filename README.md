@@ -1,5 +1,5 @@
 # Stonewashed Themes
-## Vim Stonewashed
+## Stonewashed Vim
 A simple but stylish vim theme, with suggestions for developing your own.
 ![vimrc.vim](gallery/vimrc-gui.png?raw=true "vimrc.vim")
 
@@ -33,7 +33,7 @@ The colorscheme works work in both gui (i.e. MacVim) and terminal Vim. At first 
 #### Learn More About Vim
 Investing hours to derive the perfect color scheme is a bit of a fools errand.  The ultimate goal of this project was to understand Vim a little better. I have tried to organize the code in such a way that it is easy for others to jump in and learn by playing with it.
 
-## Oh My ZSH
+## Stonewash My ZSH
 Add stonewashed prompts to the [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh) shell.
 
 ### Usage
@@ -54,3 +54,12 @@ For best results, I recommend setting your terminal background color to `#EEEEEE
 
 
 ![setting the background](gallery/background-eeeeee.png?raw=true "setting the background")
+
+## Stonewash Tmux
+Stonewashed 256-color status bar and tabs for Tmux.
+
+### Usage
+Source tmux-stonewashed-256.conf from your ~/.tmux.conf. e.g.:
+```
+source-file path/to/stonewashed/themes/repo/tmux-stonewashed-256.conf
+```
