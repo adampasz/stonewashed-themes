@@ -39,6 +39,13 @@ Add stonewashed prompts to the [Oh My ZSH](https://github.com/robbyrussell/oh-my
 ### Usage
 Copy `themes/stonewashed.zsh-theme` to ~/.oh-my-zsh/custom/themes/
 In your .zshrc, add the following line
-  `ZSH_THEME="stonewashed"`
+
+```
+ZSH_THEME="stonewashed"
+```
+
 For git and/or svn coloring, make sure to include the svn-fast-info and git-prompt plugins (in addition to any plugins you're already using), e.g.: 
-  `plugins=(svn-fast-info git-prompt)`
+
+```
+plugins=(svn-fast-info git-prompt)
+```
