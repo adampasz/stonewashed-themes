@@ -49,3 +49,8 @@ For git and/or svn coloring, make sure to include the svn-fast-info and git-prom
 ```
 plugins=(svn-fast-info git-prompt)
 ```
+
+For best results, I recommend setting your terminal background color to `#EEEEEE`
+
+
+![setting the background](gallery/background-eeeeee "setting the background")
