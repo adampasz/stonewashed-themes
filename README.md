@@ -53,4 +53,4 @@ plugins=(svn-fast-info git-prompt)
 For best results, I recommend setting your terminal background color to `#EEEEEE`
 
 
-![setting the background](gallery/background-eeeeee "setting the background")
+![setting the background](gallery/background-eeeeee.png?raw=true "setting the background")
