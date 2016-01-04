@@ -1,5 +1,12 @@
 " load my color scheme
-if has("gui_running")
+if has("win32")
+" settings for conemu on Windows
+       set term=xterm
+       set t_Co=256
+       let &t_AB="\e[48;5;%dm"
+       let &t_AF="\e[38;5;%dm"
+       colorscheme stonewashed-256
+elseif has("gui_running")
   colorscheme stonewashed-gui
 else
   set t_Co=256
