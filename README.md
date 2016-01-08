@@ -1,4 +1,18 @@
 # Stonewashed Themes
+## Overview
+This repo. features a (growing) collection of simple themes designed to make your development experience more comfortable (like your favorite pair of jeans). 
+
+### Tips
+
+* I have test on Mac, Ubuntu and Windows (in [ConEmu](https://conemu.github.io/)).
+
+* For best results, I recommend setting your terminal background color to `#EEEEEE`
+![setting the background](gallery/background-eeeeee.png?raw=true "setting the background")
+
+* I also recommend enabling italics in your terminal, which I use to highlight comments, strings and other special sections of text.
+** [iterm](https://alexpearce.me/2014/05/italics-in-iterm2-vim-tmux/)
+** [linux](http://www.nerdyweekly.com/posts/enable-italic-text-vim-tmux-gnome-terminal/)
+
 ## Stonewashed Vim
 A simple but stylish vim theme, with suggestions for developing your own.
 ![vimrc.vim](gallery/vimrc-gui.png?raw=true "vimrc.vim")
@@ -34,7 +48,8 @@ The colorscheme works work in both gui (i.e. MacVim) and terminal Vim. At first 
 Investing hours to derive the perfect color scheme is a bit of a fools errand.  The ultimate goal of this project was to understand Vim a little better. I have tried to organize the code in such a way that it is easy for others to jump in and learn by playing with it.
 
 ## Stonewash My ZSH
-Add stonewashed prompts to the [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh) shell.
+Add stonewashed prompts to the [Oh My ZSH](https://github.com/robbyrussell/oh-my-zsh) shell. I find the Git and SVN version info (on the right side) to be invaluable.
+![Oh My Zsh](gallery/zsh.png?raw=true "zsh")
 
 ### Usage
 Copy `themes/stonewashed.zsh-theme` to ~/.oh-my-zsh/custom/themes/
@@ -49,12 +64,6 @@ For git and/or svn coloring, make sure to include the svn-fast-info and git-prom
 ```
 plugins=(svn-fast-info git-prompt)
 ```
-
-For best results, I recommend setting your terminal background color to `#EEEEEE`
-
-
-![setting the background](gallery/background-eeeeee.png?raw=true "setting the background")
-
 ## Stonewash Tmux
 Stonewashed 256-color status bar and tabs for Tmux.
 
