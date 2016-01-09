@@ -4,7 +4,7 @@
 # If you want git and svn coloring, make sure to include the svn-fast-info and git-prompt plugins, e.g.: 
 #   plugins=(svn-fast-info git-prompt)
 
-# stonewashed colors
+# STONEWASHED COLORS
 stonewashed_gray=$FG[235]
 stonewashed_red=$FG[052]
 stonewashed_green=$FG[064]
@@ -13,7 +13,7 @@ stonewashed_yellow=$FG[230]
 stonewashed_orange=$FG[094]
 stonewashed_yellow_bg=$BG[230]
 
-# Attributes
+# ATTRIBUTES
 # See http://www.understudy.net/custom.html
 at_normal=$'\e[0m'
 at_bold=$'\e[1m'
@@ -31,20 +31,18 @@ at_blink_off=$'\e[25m'
 at_reverse_off=$'\e[27m'
 at_strike_off=$'\e[29m'
 
-# Prompts
-# disable italics until we figure out how  to fix them...
-# PROMPT='$at_italics$stonewashed_green%3c%F{blue}$ %f$at_normal'
-PROMPT='$stonewashed_green%3c$stonewashed_blue$ '
+# PROMPTS
+PROMPT='%{$at_italics$stonewashed_green%}%3c$stonewashed_blue$ '
 RPROMPT='$(svn_prompt_info)$(git_super_status)'
 # remove one space on right side but may cause wrapping issues on older terminals
 ZLE_RPROMPT_INDENT=0
 
-# Git
+# GIT
 ZSH_THEME_GIT_PROMPT_PREFIX="$stonewashed_yellow"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%f$stonewashed_yellow_bg %{$reset_color%}%"
 ZSH_THEME_GIT_PROMPT_DIRTY=" %$stonewashed_red*%f"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
-ZSH_THEME_GIT_PROMPT_BRANCH="%{$at_italics$fg[grey]$stonewashed_yellow_bg%} "
+ZSH_THEME_GIT_PROMPT_BRANCH="%{$at_italics$stonewashed_gray$stonewashed_yellow_bg%} "
 ZSH_THEME_GIT_PROMPT_SEPARATOR="%{$stonewashed_yellow_bg%} "
 ZSH_THEME_GIT_PROMPT_STAGED="%{$stonewashed_green%}%{●%G%}"
 ZSH_THEME_GIT_PROMPT_CONFLICTS="%{$stonewashed_red%}%{✖%G%}"
