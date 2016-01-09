@@ -32,8 +32,12 @@ at_reverse_off=$'\e[27m'
 at_strike_off=$'\e[29m'
 
 # Prompts
-PROMPT='$at_italics$stonewashed_green%3c%F{blue}$ %f$at_normal'
+# disable italics until we figure out how  to fix them...
+# PROMPT='$at_italics$stonewashed_green%3c%F{blue}$ %f$at_normal'
+PROMPT='$stonewashed_green%3c$stonewashed_blue$ '
 RPROMPT='$(svn_prompt_info)$(git_super_status)'
+# remove one space on right side but may cause wrapping issues on older terminals
+ZLE_RPROMPT_INDENT=0
 
 # Git
 ZSH_THEME_GIT_PROMPT_PREFIX="$stonewashed_yellow"
