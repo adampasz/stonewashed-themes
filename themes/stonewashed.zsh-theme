@@ -9,7 +9,6 @@ stonewashed_gray=$FG[235]
 stonewashed_red=$FG[052]
 stonewashed_green=$FG[064]
 stonewashed_blue=$FG[017]
-stonewashed_yellow=$FG[230]
 stonewashed_orange=$FG[094]
 stonewashed_yellow_bg=$BG[230]
 
@@ -38,7 +37,7 @@ RPROMPT='$(svn_prompt_info)$(git_super_status)'
 ZLE_RPROMPT_INDENT=0
 
 # GIT
-ZSH_THEME_GIT_PROMPT_PREFIX="$stonewashed_yellow"
+ZSH_THEME_GIT_PROMPT_PREFIX=""
 ZSH_THEME_GIT_PROMPT_SUFFIX="%f$stonewashed_yellow_bg %{$reset_color%}%"
 ZSH_THEME_GIT_PROMPT_DIRTY=" %$stonewashed_red*%f"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
