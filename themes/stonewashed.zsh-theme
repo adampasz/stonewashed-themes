@@ -31,7 +31,7 @@ at_reverse_off=$'\e[27m'
 at_strike_off=$'\e[29m'
 
 # PROMPTS
-PROMPT='%{$at_italics$stonewashed_green%}%3c$stonewashed_blue$ %f$at_normal'
+PROMPT='%{$at_italics$stonewashed_green%}%3c$stonewashed_blue$ %f'
 RPROMPT='$(svn_prompt_info)$(git_super_status)'
 # remove one space on right side but may cause wrapping issues on older terminals
 ZLE_RPROMPT_INDENT=0
