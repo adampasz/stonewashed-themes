@@ -27,7 +27,7 @@ hi LineNr guifg=#585858 guibg=#ccc0b7
 hi Macro guifg=#5f0000 gui=underline
 hi MatchParen guibg=#dfdf5f
 hi NonText guifg=#B0B0B0 guibg=#000000
-hi Normal guifg=#000000 guibg=#000000
+hi Normal guifg=#ffffff guibg=#000000
 hi Number guifg=#005f5f 
 hi Pmenu guibg=#5f99ff guifg=#eaeaea gui=reverse 
 hi PmenuSel guifg=#5f99ff guibg=#fafafa gui=reverse
