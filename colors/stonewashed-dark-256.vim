@@ -26,7 +26,7 @@ hi Include ctermfg=94 cterm=underline
 hi LineNr ctermfg=240 ctermbg=144
 hi Macro ctermfg=94 cterm=underline
 hi MatchParen ctermbg=185 cterm=bold
-hi NonText ctermfg=244 ctermbg=254
+hi NonText ctermfg=244 ctermbg=0
 hi Normal ctermfg=255 ctermbg=0
 hi Number ctermfg=23 
 hi Pmenu ctermbg=75 ctermfg=253 cterm=reverse 
