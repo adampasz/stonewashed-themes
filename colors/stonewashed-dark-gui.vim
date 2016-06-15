@@ -9,20 +9,20 @@ if version > 580
   endif
 endif
 let g:colors_name = "stonewashed-dark-gui"
-hi ColorColumn guibg=#bcbcbd
-hi Comment  guifg=#888888
-hi Conditional guifg=#5f0000 gui=underline
-hi Constant guifg=#5f0000 
-hi CursorColumn guibg=#fdfdfd
-hi CursorLine guibg=#ffffff gui=none
-hi Delimiter guifg=#000000
-hi Define guifg=#5f0000 gui=underline
+hi ColorColumn guibg=#121212
+hi Comment  guifg=#666666
+hi Conditional guifg=#875f00 gui=underline
+hi Constant guifg=#870000
+hi CursorColumn guibg=#121212
+" hi CursorLine guibg=#000000 gui=none
+" hi Delimiter guifg=#ffffff
+hi Define guifg=#875f00 gui=underline
 hi Error guifg=#af0000 guibg=#f7f7f7 gui=bold,undercurl
-hi Exception guifg=#5f0000 gui=underline
-hi Float guifg=#5f0000
+hi Exception guifg=#875f000 gui=underline
+hi Float guifg=#875f00
 hi Function guifg=#5f5fd7
 hi Identifier guifg=#5f5fd7  gui=none
-hi Include guifg=#5f0000 gui=underline
+hi Include guifg=#875f00 gui=underline
 hi LineNr guifg=#585858 guibg=#ccc0b7 
 hi Macro guifg=#5f0000 gui=underline
 hi MatchParen guibg=#dfdf5f
