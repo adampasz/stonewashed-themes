@@ -14,7 +14,7 @@ hi Comment  guifg=#949494
 hi Conditional guifg=#d75f00 gui=underline
 hi Constant guifg=#d7875f
 hi CursorColumn guibg=#121212
-hi cursorline guibg=#000000 gui=none
+hi cursorline guibg=#111111 gui=none
 hi Delimiter guifg=#d75f00
 hi Define guifg=#d75f00 gui=underline
 hi Error guifg=#af0000 guibg=#f7f7f7 gui=bold,undercurl

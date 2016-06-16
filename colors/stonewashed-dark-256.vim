@@ -14,8 +14,8 @@ hi ColorColumn ctermbg=233
 hi Comment ctermfg=242
 hi Conditional ctermfg=94 cterm=underline
 hi Constant ctermfg=52 
-hi CursorColumn ctermbg=233
-" hi CursorLine ctermbg=231 cterm=none
+hi CursorColumn ctermbg=235
+hi CursorLine ctermbg=236 cterm=none
 hi Define ctermfg=94 cterm=none
 hi Error ctermfg=124 ctermbg=255 cterm=bold,undercurl
 hi Exception ctermfg=94 cterm=none
