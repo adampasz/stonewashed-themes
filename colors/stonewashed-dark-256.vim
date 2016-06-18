@@ -13,8 +13,9 @@ let g:colors_name = "stonewashed-dark-256"
 hi ColorColumn ctermbg=233
 hi Comment ctermfg=242
 hi Conditional ctermfg=94 cterm=underline
-hi Constant ctermfg=52 
+hi Constant ctermfg=124 
 hi CursorColumn ctermbg=235
+hi CursorLineNr ctermfg=124
 hi CursorLine ctermbg=236 cterm=none
 hi Define ctermfg=94 cterm=none
 hi Error ctermfg=124 ctermbg=255 cterm=bold,undercurl
@@ -28,7 +29,7 @@ hi Macro ctermfg=94 cterm=underline
 hi MatchParen ctermbg=185 cterm=bold
 hi NonText ctermfg=244 ctermbg=0
 hi Normal ctermfg=255 ctermbg=0
-hi Number ctermfg=23 
+hi Number ctermfg=37
 hi Pmenu ctermbg=75 ctermfg=253 cterm=reverse 
 hi PmenuSel ctermfg=253 ctermbg=75
 hi PreConduit ctermfg=94
@@ -37,13 +38,13 @@ hi Repeat ctermfg=60
 hi Search ctermbg=217 cterm=bold
 hi Special ctermfg=57
 hi SpecialKey ctermbg=254 ctermfg=248
-hi Statement ctermfg=52
+hi Statement ctermfg=124
 hi StatusLine ctermfg=144 ctermbg=140
 hi StatusLineNC ctermbg=144 ctermfg=144
 hi StorageClass ctermfg=17 
 hi String ctermfg=22
 hi Structure ctermfg=64 cterm=underline
-hi Title ctermfg=52
+hi Title ctermfg=124
 hi Todo ctermbg=226 ctermfg=238 cterm=bold
 hi Type ctermfg=17
 hi Typedef ctermfg=64 cterm=underline
