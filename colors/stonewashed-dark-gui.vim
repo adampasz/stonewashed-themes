@@ -11,29 +11,29 @@ endif
 let g:colors_name = "stonewashed-dark-gui"
 hi ColorColumn guibg=#121212
 hi Comment  guifg=#949494
-hi Conditional guifg=#bb8888 gui=underline
+hi Conditional guifg=#a88f53 gui=underline
 hi Constant guifg=#bb8888
 hi CursorColumn guibg=#121212
 hi cursorline guibg=#111111 gui=none
 hi CursorLineNr guifg=#bb8888
 hi Delimiter guifg=#bb8888
-hi Define guifg=#bb8888 gui=underline
+hi Define guifg=#a88f53 gui=underline
 hi Error guifg=#af0000 guibg=#f7f7f7 gui=bold,undercurl
-hi Exception guifg=#bb8888 gui=none
+hi Exception guifg=#a88f53 gui=none
 hi Float guifg=#a88f53
 hi Function guifg=#5f5fd7
 hi Identifier guifg=#7e74dd gui=none
-hi Include guifg=#bb8888 gui=underline
+hi Include guifg=#a88f53 gui=underline
 hi LineNr guifg=#585858 guibg=#ccc0b7 
-hi Macro guifg=#bb8888 gui=underline
+hi Macro guifg=#a88f53 gui=underline
 hi MatchParen guibg=#dfdf5f
 hi MoreMsg guifg=#7fca95
 hi NonText guifg=#B0B0B0 guibg=#000000
 hi Normal guifg=#dddddd guibg=#000000
-hi Number guifg=#749c87 
+hi Number guifg=#5b9898 
 hi Pmenu guibg=#5f99ff guifg=#eaeaea gui=reverse 
 hi PmenuSel guifg=#5f99ff guibg=#fafafa gui=reverse
-hi PreConduit guifg=#bb8888
+hi PreConduit guifg=#a88f53
 hi PreProc guifg=#bb8888
 hi Repeat guifg=#5f5fa7
 hi Search guibg=#ffafaf gui=bold
