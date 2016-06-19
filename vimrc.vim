@@ -7,10 +7,10 @@ if has("win32")
        let &t_AF="\e[38;5;%dm"
        colorscheme stonewashed-256
 elseif has("gui_running")
-  colorscheme stonewashed-gui
+  colorscheme stonewashed-dark-gui
 else
   set t_Co=256
-  colorscheme stonewashed-256
+  colorscheme stonewashed-dark-256
 endif
 
 " turn on syntax highlighting

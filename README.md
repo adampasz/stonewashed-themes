@@ -6,7 +6,7 @@ This repo. features a (growing) collection of simple themes designed to make you
 
 * I have test on Mac, Ubuntu and Windows (in [ConEmu](https://conemu.github.io/)).
 
-* For best results, I recommend setting your terminal background color to `#EEEEEE`
+* If you are using the light them, I recommend setting your terminal background color to `#EEEEEE` for best results.
 ![setting the background](gallery/background-eeeeee.png?raw=true "setting the background")
 
 * I also recommend enabling italics in your terminal, which I use to highlight comments, strings and other special sections of text.
@@ -18,9 +18,9 @@ A simple but stylish vim theme, with suggestions for developing your own.
 ![vimrc.vim](gallery/vimrc-gui.png?raw=true "vimrc.vim")
 
 ### Usage
-Copy (or symlink) `colors/stonewashed-gui.vim` and `colors/stonewashed-256.vim` into `~/.vim/colors/`.
+Copy (or symlink) everything in `colors/` into `~/.vim/colors/`.
 
-Add the following lines to your .vimrc (or use code from the sample vimrc.vim provided).
+For the light theme, add the following lines to your .vimrc (or use code from the sample vimrc.vim provided).
 
 ```
 " load my color scheme
@@ -32,7 +32,11 @@ endif
 
 " turn on syntax highlighting
 syntax on
+
 ```
+For the dark theme, use `stonewashed-dark-gui` and `stonewashed-dark-256` instead.
+![dark theme](gallery/dark-gui-theme.png?raw=true "dark theme")
+
 ### Goals
 
 #### A "Washed-Out" Style
