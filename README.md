@@ -35,7 +35,7 @@ syntax on
 
 ```
 For the dark theme, use `stonewashed-dark-gui` and `stonewashed-dark-256` instead.
-![dark theme](gallery/dark-gui-theme)
+![dark theme](gallery/dark-gui-theme.png?raw=true "dark theme")
 
 ### Goals
 
