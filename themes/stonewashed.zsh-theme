@@ -34,7 +34,7 @@ at_strike_off=$'\e[29m'
 PROMPT='%{$at_italics$stonewashed_green%}%3c$at_italics_off$stonewashed_blue$ %{$reset_color%}%'
 RPROMPT='$(svn_prompt_info)$(git_super_status)'
 # remove one space on right side but may cause wrapping issues on older terminals
-ZLE_RPROMPT_INDENT=0
+# ZLE_RPROMPT_INDENT=0
 
 # GIT
 ZSH_THEME_GIT_PROMPT_PREFIX=""
