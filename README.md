@@ -4,7 +4,7 @@ This repo. features a (growing) collection of simple themes designed to make you
 
 ### Tips
 
-* I have test on Mac, Ubuntu and Windows (in [ConEmu](https://conemu.github.io/)).
+* I have tested on Mac, Ubuntu and Windows (in [ConEmu](https://conemu.github.io/)).
 
 * If you are using the light them, I recommend setting your terminal background color to `#EEEEEE` for best results.
 ![setting the background](gallery/background-eeeeee.png?raw=true "setting the background")
@@ -18,7 +18,7 @@ A simple but stylish vim theme, with suggestions for developing your own.
 ![vimrc.vim](gallery/vimrc-gui.png?raw=true "vimrc.vim")
 
 ### Usage
-Copy (or symlink) everything in `colors/` into `~/.vim/colors/`.
+Copy everything in `colors/` into `~/.vim/colors/`. You can also use [symlinks](https://github.com/adampasz/stonewashed-themes/blob/master/symlinks.sh).
 
 For the light theme, add the following lines to your .vimrc (or use code from the sample vimrc.vim provided).
 
