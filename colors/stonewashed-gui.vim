@@ -9,6 +9,9 @@ if version > 580
   endif
 endif
 let g:colors_name = "stonewashed-gui"
+
+
+
 hi ColorColumn guibg=#bcbcbd
 hi Comment  guifg=#888888
 hi Conditional guifg=#5f0000 gui=underline
@@ -29,8 +32,9 @@ hi MatchParen guibg=#dfdf5f
 hi NonText guifg=#B0B0B0 guibg=#e4e4e4
 hi Normal guifg=#000000 guibg=#f7f7f7
 hi Number guifg=#005f5f 
-hi Pmenu guibg=#5f99ff guifg=#eaeaea gui=reverse 
-hi PmenuSel guifg=#5f99ff guibg=#fafafa gui=reverse
+hi Pmenu guibg=#5f99ff guifg=#eaeaea
+hi PmenuSel guifg=#5f99ff guibg=#fafafa
+" hi TabLine guifg=#CCCCCC
 hi PreConduit guifg=#5f0000
 hi PreProc guifg=#5f0000
 hi Repeat guifg=#5f5fa7
@@ -45,13 +49,38 @@ hi StorageClass guifg=#00005f
 hi String guifg=#005f00 
 hi Structure guifg=#5f8700 gui=underline
 hi Title guifg=#5f0000
-hi Todo guibg=#ffff00 guifg=#444444 gui=bold
+hi Todo guibg=#fefedd guifg=#444444 gui=bold
 hi Type guifg=#00005f
 hi Typedef guifg=#5f8700 gui=underline
 hi Underlined guifg=#005f00 gui=underline
 hi VertSplit guifg=#dfffff guibg=#dfffff
 hi Visual  guibg=#87d7ff gui=bold  
 hi Wildmenu guibg=#87ffaf gui=underline
+
+hi link CocUnusedHighlight Todo 
+" hi link CocErrorSign Exception
+" hi link CocWarningSign Error
+" hi link CocInfoSign Identifier
+" hi link CocHintSign StatusLine 
+" hi link CocErrorFloat StatusLineNC 
+" hi link CocWarningFloat Visual 
+" hi link CocInfoFloat Title
+" hi link CocHintFloat Search 
+" hi link CocDiagnosticsError Error
+" hi link CocDiagnosticsWarning Pmenu 
+" hi link CocDiagnosticsInfo Repeat 
+" hi link CocDiagnosticsHint StorageClass 
+
+" hi PmenuThumb	PmenuThumb CocFloatThumb
+
+hi CocErrorSign ctermfg=red  guibg=red
+hi CocErrorFloat ctermfg=white ctermbg=red
+
+hi CocInfoSign ctermfg=blue 
+hi CocInfoFloat ctermfg=white ctermbg=blue
+
+hi CocWarningSign ctermfg=white ctermbg=yellow
+
 
 """ REFERENCE
 " Color Chart http://i.stack.imgur.com/UQVe5.png
